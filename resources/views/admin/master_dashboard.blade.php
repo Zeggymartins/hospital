@@ -18,9 +18,14 @@
         <!-- Bootstrap Css -->
         <link href="https://shreethemes.in/doctris/layouts/assets/css/bootstrap.min.css" class="theme-opt" rel="stylesheet" type="text/css" />
         <!-- Icons Css -->
+      
+        <!-- DataTables CSS -->
+        <link rel="stylesheet" href="https://cdn.datatables.net/1.13.4/css/dataTables.bootstrap5.min.css">
         <link href="https://shreethemes.in/doctris/layouts/assets/css/icons.min.css" rel="stylesheet" type="text/css" />
         <link href="https://shreethemes.in/doctris/layouts/assets/libs/remixicon/fonts/remixicon.css" rel="stylesheet" type="text/css" />
-        <link href="https://shreethemes.in/doctris/layouts/assets/libs/@iconscout/unicons/css/line.css" type="text/css" rel="stylesheet" />
+        {{-- <link href="https://shreethemes.in/doctris/layouts/assets/libs/@iconscout/unicons/css/line.css" type="text/css" rel="stylesheet" /> --}}
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
+
         <!-- Style Css-->
         <link href="https://shreethemes.in/doctris/layouts/assets/css/style.min.css" class="theme-opt" rel="stylesheet" type="text/css" />
 
@@ -65,7 +70,7 @@
                     <img src="https://shreethemes.in/doctris/layouts/assets/images/logo-dark.png" height="22" class="light-version" alt="">
                     <img src="https://shreethemes.in/doctris/layouts/assets/images/logo-light.png" height="22" class="dark-version" alt="">
                 </h5>
-                <button type="button" class="btn-close d-flex align-items-center text-dark" data-bs-dismiss="offcanvas" aria-label="Close"><i class="uil uil-times fs-4"></i></button>
+                <button type="button" class="btn-close d-flex align-items-center text-dark" data-bs-dismiss="offcanvas" aria-label="Close"><i class="bi bi-times fs-4"></i></button>
             </div>
             <div class="offcanvas-body p-4 px-md-5">
                 <div class="row">
@@ -91,14 +96,14 @@
 
             <div class="offcanvas-footer p-4 border-top text-center">
                 <ul class="list-unstyled social-icon social mb-0">
-                    <li class="list-inline-item mb-0"><a href="https://1.envato.market/doctris-template" target="_blank" class="rounded"><i class="uil uil-shopping-cart align-middle" title="Buy Now"></i></a></li>
-                    <li class="list-inline-item mb-0"><a href="https://dribbble.com/shreethemes" target="_blank" class="rounded"><i class="uil uil-dribbble align-middle" title="dribbble"></i></a></li>
-                    <li class="list-inline-item mb-0"><a href="https://www.behance.net/shreethemes" target="_blank" class="rounded"><i class="uil uil-behance align-middle" title="behance"></i></a></li>
-                    <li class="list-inline-item mb-0"><a href="https://www.facebook.com/shreethemes" target="_blank" class="rounded"><i class="uil uil-facebook-f align-middle" title="facebook"></i></a></li>
-                    <li class="list-inline-item mb-0"><a href="https://www.instagram.com/shreethemes/" target="_blank" class="rounded"><i class="uil uil-instagram align-middle" title="instagram"></i></a></li>
-                    <li class="list-inline-item mb-0"><a href="https://x.com/shreethemes" target="_blank" class="rounded"><i class="uil uil-twitter align-middle" title="twitter"></i></a></li>
-                    <li class="list-inline-item mb-0"><a href="mailto:support@shreethemes.in" class="rounded"><i class="uil uil-envelope align-middle" title="email"></i></a></li>
-                    <li class="list-inline-item mb-0"><a href="https://shreethemes.in/" target="_blank" class="rounded"><i class="uil uil-globe align-middle" title="website"></i></a></li>
+                    <li class="list-inline-item mb-0"><a href="https://1.envato.market/doctris-template" target="_blank" class="rounded"><i class="bi bi-shopping-cart align-middle" title="Buy Now"></i></a></li>
+                    <li class="list-inline-item mb-0"><a href="https://dribbble.com/shreethemes" target="_blank" class="rounded"><i class="bi bi-dribbble align-middle" title="dribbble"></i></a></li>
+                    <li class="list-inline-item mb-0"><a href="https://www.behance.net/shreethemes" target="_blank" class="rounded"><i class="bi bi-behance align-middle" title="behance"></i></a></li>
+                    <li class="list-inline-item mb-0"><a href="https://www.facebook.com/shreethemes" target="_blank" class="rounded"><i class="bi bi-facebook-f align-middle" title="facebook"></i></a></li>
+                    <li class="list-inline-item mb-0"><a href="https://www.instagram.com/shreethemes/" target="_blank" class="rounded"><i class="bi bi-instagram align-middle" title="instagram"></i></a></li>
+                    <li class="list-inline-item mb-0"><a href="https://x.com/shreethemes" target="_blank" class="rounded"><i class="bi bi-twitter align-middle" title="twitter"></i></a></li>
+                    <li class="list-inline-item mb-0"><a href="mailto:support@shreethemes.in" class="rounded"><i class="bi bi-envelope align-middle" title="email"></i></a></li>
+                    <li class="list-inline-item mb-0"><a href="https://shreethemes.in/" target="_blank" class="rounded"><i class="bi bi-globe align-middle" title="website"></i></a></li>
                 </ul><!--end icon-->
             </div>
         </div>
@@ -109,11 +114,18 @@
         <script src="https://shreethemes.in/doctris/layouts/assets/libs/apexcharts/apexcharts.min.js"></script>
         <script src="https://shreethemes.in/doctris/layouts/assets/js/admin-apexchart.init.js"></script>
         <script src="https://shreethemes.in/doctris/layouts/assets/libs/feather-icons/feather.min.js"></script>
-        <!-- Main Js -->
+        <!-- jQuery (required) -->
+            <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+            <!-- DataTables JS -->
+            <script src="https://cdn.datatables.net/1.11.5/js/jquery.dataTables.min.js"></script>
+            <script src="https://cdn.datatables.net/1.13.4/js/dataTables.bootstrap5.min.js"></script>
+                    <!-- Main Js -->
         <!-- JAVASCRIPT -->
         <script src="https://shreethemes.in/doctris/layouts/assets/libs/bootstrap/js/bootstrap.bundle.min.js"></script>
         <script src="https://shreethemes.in/doctris/layouts/assets/js/plugins.init.js"></script>
         <script src="https://shreethemes.in/doctris/layouts/assets/js/app.js"></script>
+        @yield('body_script')
         
     </body>
 

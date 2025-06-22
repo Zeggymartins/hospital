@@ -8,7 +8,7 @@
             <div class="card features feature-primary rounded border-0 shadow p-4">
                 <div class="d-flex align-items-center">
                     <div class="icon text-center rounded-md">
-                        <i class="uil uil-bed h3 mb-0"></i>
+                        <i class="bi bi-bed h3 mb-0"></i>
                     </div>
                     <div class="flex-1 ms-2">
                         <h5 class="mb-0">558</h5>
@@ -22,7 +22,7 @@
             <div class="card features feature-primary rounded border-0 shadow p-4">
                 <div class="d-flex align-items-center">
                     <div class="icon text-center rounded-md">
-                        <i class="uil uil-file-medical-alt h3 mb-0"></i>
+                        <i class="bi bi-file-medical-alt h3 mb-0"></i>
                     </div>
                     <div class="flex-1 ms-2">
                         <h5 class="mb-0">$2164</h5>
@@ -36,7 +36,7 @@
             <div class="card features feature-primary rounded border-0 shadow p-4">
                 <div class="d-flex align-items-center">
                     <div class="icon text-center rounded-md">
-                        <i class="uil uil-social-distancing h3 mb-0"></i>
+                        <i class="bi bi-social-distancing h3 mb-0"></i>
                     </div>
                     <div class="flex-1 ms-2">
                         <h5 class="mb-0">112</h5>
@@ -50,7 +50,7 @@
             <div class="card features feature-primary rounded border-0 shadow p-4">
                 <div class="d-flex align-items-center">
                     <div class="icon text-center rounded-md">
-                        <i class="uil uil-ambulance h3 mb-0"></i>
+                        <i class="bi bi-ambulance h3 mb-0"></i>
                     </div>
                     <div class="flex-1 ms-2">
                         <h5 class="mb-0">16</h5>
@@ -65,7 +65,7 @@
             <div class="card features feature-primary rounded border-0 shadow p-4">
                 <div class="d-flex align-items-center">
                     <div class="icon text-center rounded-md">
-                        <i class="uil uil-medkit h3 mb-0"></i>
+                        <i class="bi bi-medkit h3 mb-0"></i>
                     </div>
                     <div class="flex-1 ms-2">
                         <h5 class="mb-0">220</h5>
@@ -79,7 +79,7 @@
             <div class="card features feature-primary rounded border-0 shadow p-4">
                 <div class="d-flex align-items-center">
                     <div class="icon text-center rounded-md">
-                        <i class="uil uil-medical-drip h3 mb-0"></i>
+                        <i class="bi bi-medical-drip h3 mb-0"></i>
                     </div>
                     <div class="flex-1 ms-2">
                         <h5 class="mb-0">10</h5>
@@ -129,7 +129,7 @@
         <div class="col-xl-4 col-lg-6 mt-4">
             <div class="card border-0 shadow rounded">
                 <div class="d-flex justify-content-between align-items-center p-4 border-bottom">
-                    <h6 class="mb-0"><i class="uil uil-calender text-primary me-1 h5"></i> Latest Appointment</h6>
+                    <h6 class="mb-0"><i class="bi bi-calender text-primary me-1 h5"></i> Latest Appointment</h6>
                     <h6 class="text-muted mb-0">55 Patients</h6>
                 </div>
 
@@ -144,8 +144,8 @@
                                 </div>
                             </div>
                             <div>
-                                <a href="#" class="btn btn-icon btn-pills btn-soft-success"><i class="uil uil-check"></i></a>
-                                <a href="#" class="btn btn-icon btn-pills btn-soft-danger"><i class="uil uil-times"></i></a>
+                                <a href="#" class="btn btn-icon btn-pills btn-soft-success"><i class="bi bi-check"></i></a>
+                                <a href="#" class="btn btn-icon btn-pills btn-soft-danger"><i class="bi bi-times"></i></a>
                             </div>
                         </div>
                     </li>
@@ -160,8 +160,8 @@
                                 </div>
                             </div>
                             <div>
-                                <a href="#" class="btn btn-icon btn-pills btn-soft-success"><i class="uil uil-check"></i></a>
-                                <a href="#" class="btn btn-icon btn-pills btn-soft-danger"><i class="uil uil-times"></i></a>
+                                <a href="#" class="btn btn-icon btn-pills btn-soft-success"><i class="bi bi-check"></i></a>
+                                <a href="#" class="btn btn-icon btn-pills btn-soft-danger"><i class="bi bi-times"></i></a>
                             </div>
                         </div>
                     </li>
@@ -176,8 +176,8 @@
                                 </div>
                             </div>
                             <div>
-                                <a href="#" class="btn btn-icon btn-pills btn-soft-success"><i class="uil uil-check"></i></a>
-                                <a href="#" class="btn btn-icon btn-pills btn-soft-danger"><i class="uil uil-times"></i></a>
+                                <a href="#" class="btn btn-icon btn-pills btn-soft-success"><i class="bi bi-check"></i></a>
+                                <a href="#" class="btn btn-icon btn-pills btn-soft-danger"><i class="bi bi-times"></i></a>
                             </div>
                         </div>
                     </li>
@@ -192,8 +192,8 @@
                                 </div>
                             </div>
                             <div>
-                                <a href="#" class="btn btn-icon btn-pills btn-soft-success"><i class="uil uil-check"></i></a>
-                                <a href="#" class="btn btn-icon btn-pills btn-soft-danger"><i class="uil uil-times"></i></a>
+                                <a href="#" class="btn btn-icon btn-pills btn-soft-success"><i class="bi bi-check"></i></a>
+                                <a href="#" class="btn btn-icon btn-pills btn-soft-danger"><i class="bi bi-times"></i></a>
                             </div>
                         </div>
                     </li>
@@ -208,8 +208,8 @@
                                 </div>
                             </div>
                             <div>
-                                <a href="#" class="btn btn-icon btn-pills btn-soft-success"><i class="uil uil-check"></i></a>
-                                <a href="#" class="btn btn-icon btn-pills btn-soft-danger"><i class="uil uil-times"></i></a>
+                                <a href="#" class="btn btn-icon btn-pills btn-soft-success"><i class="bi bi-check"></i></a>
+                                <a href="#" class="btn btn-icon btn-pills btn-soft-danger"><i class="bi bi-times"></i></a>
                             </div>
                         </div>
                     </li>
@@ -230,11 +230,11 @@
 
                     <ul class="list-unstyled mb-0">
                         <li class="dropdown dropdown-primary list-inline-item">
-                            <button type="button" class="btn btn-icon btn-pills btn-soft-primary dropdown-toggle p-0" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="uil uil-ellipsis-h"></i></button>
+                            <button type="button" class="btn btn-icon btn-pills btn-soft-primary dropdown-toggle p-0" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="bi bi-ellipsis-h"></i></button>
                             <div class="dropdown-menu dd-menu dropdown-menu-end shadow border-0 mt-3 py-3">
-                                <a class="dropdown-item text-dark" href="#"><span class="mb-0 d-inline-block me-1"><i class="uil uil-user align-middle h6"></i></span> Profile</a>
-                                <a class="dropdown-item text-dark" href="#"><span class="mb-0 d-inline-block me-1"><i class="uil uil-setting align-middle h6"></i></span> Profile Settings</a>
-                                <a class="dropdown-item text-dark" href="#"><span class="mb-0 d-inline-block me-1"><i class="uil uil-trash align-middle h6"></i></span> Delete</a>
+                                <a class="dropdown-item text-dark" href="#"><span class="mb-0 d-inline-block me-1"><i class="bi bi-user align-middle h6"></i></span> Profile</a>
+                                <a class="dropdown-item text-dark" href="#"><span class="mb-0 d-inline-block me-1"><i class="bi bi-setting align-middle h6"></i></span> Profile Settings</a>
+                                <a class="dropdown-item text-dark" href="#"><span class="mb-0 d-inline-block me-1"><i class="bi bi-trash align-middle h6"></i></span> Delete</a>
                             </div>
                         </li>
                     </ul>
@@ -251,7 +251,7 @@
                                     
                                 <div class="flex-1 chat-msg" style="max-width: 500px;">
                                     <p class="text-muted small shadow px-3 py-2 bg-light rounded mb-1">Hey Christopher</p>
-                                    <small class="text-muted msg-time"><i class="uil uil-clock-nine me-1"></i>59 min ago</small>
+                                    <small class="text-muted msg-time"><i class="bi bi-clock-nine me-1"></i>59 min ago</small>
                                 </div>
                             </div>
                         </div>
@@ -267,7 +267,7 @@
                                     
                                 <div class="flex-1 chat-msg" style="max-width: 500px;">
                                     <p class="text-muted small shadow px-3 py-2 bg-light rounded mb-1">Hello Cristino</p>
-                                    <small class="text-muted msg-time"><i class="uil uil-clock-nine me-1"></i>45 min ago</small>
+                                    <small class="text-muted msg-time"><i class="bi bi-clock-nine me-1"></i>45 min ago</small>
                                 </div>
                             </div>
                         </div>
@@ -283,7 +283,7 @@
                                     
                                 <div class="flex-1 chat-msg" style="max-width: 500px;">
                                     <p class="text-muted small shadow px-3 py-2 bg-light rounded mb-1">How can i help you?</p>
-                                    <small class="text-muted msg-time"><i class="uil uil-clock-nine me-1"></i>44 min ago</small>
+                                    <small class="text-muted msg-time"><i class="bi bi-clock-nine me-1"></i>44 min ago</small>
                                 </div>
                             </div>
                         </div>
@@ -299,7 +299,7 @@
                                     
                                 <div class="flex-1 chat-msg" style="max-width: 500px;">
                                     <p class="text-muted small shadow px-3 py-2 bg-light rounded mb-1">Nice to meet you</p>
-                                    <small class="text-muted msg-time"><i class="uil uil-clock-nine me-1"></i>42 min ago</small>
+                                    <small class="text-muted msg-time"><i class="bi bi-clock-nine me-1"></i>42 min ago</small>
                                 </div>
                             </div>
                         </div>
@@ -315,7 +315,7 @@
                                     
                                 <div class="flex-1 chat-msg" style="max-width: 500px;">
                                     <p class="text-muted small shadow px-3 py-2 bg-light rounded mb-1">Hope you are doing fine?</p>
-                                    <small class="text-muted msg-time"><i class="uil uil-clock-nine me-1"></i>40 min ago</small>
+                                    <small class="text-muted msg-time"><i class="bi bi-clock-nine me-1"></i>40 min ago</small>
                                 </div>
                             </div>
                         </div>
@@ -331,7 +331,7 @@
                                     
                                 <div class="flex-1 chat-msg" style="max-width: 500px;">
                                     <p class="text-muted small shadow px-3 py-2 bg-light rounded mb-1">I'm good thanks for asking</p>
-                                    <small class="text-muted msg-time"><i class="uil uil-clock-nine me-1"></i>45 min ago</small>
+                                    <small class="text-muted msg-time"><i class="bi bi-clock-nine me-1"></i>45 min ago</small>
                                 </div>
                             </div>
                         </div>
@@ -347,7 +347,7 @@
                                     
                                 <div class="flex-1 chat-msg" style="max-width: 500px;">
                                     <p class="text-muted small shadow px-3 py-2 bg-light rounded mb-1">I am intrested to know more about your prices and services you offer</p>
-                                    <small class="text-muted msg-time"><i class="uil uil-clock-nine me-1"></i>35 min ago</small>
+                                    <small class="text-muted msg-time"><i class="bi bi-clock-nine me-1"></i>35 min ago</small>
                                 </div>
                             </div>
                         </div>
@@ -363,7 +363,7 @@
                                     
                                 <div class="flex-1 chat-msg" style="max-width: 500px;">
                                     <p class="text-muted small shadow px-3 py-2 bg-light rounded mb-1">Sure please check below link to find more useful information <a href="https://1.envato.market/doctris-template" target="_blank" class="text-primary">https://shreethemes.in/Doctris/</a></p>
-                                    <small class="text-muted msg-time"><i class="uil uil-clock-nine me-1"></i>25 min ago</small>
+                                    <small class="text-muted msg-time"><i class="bi bi-clock-nine me-1"></i>25 min ago</small>
                                 </div>
                             </div>
                         </div>
@@ -379,7 +379,7 @@
                                     
                                 <div class="flex-1 chat-msg" style="max-width: 500px;">
                                     <p class="text-muted small shadow px-3 py-2 bg-light rounded mb-1">Thank you 😊</p>
-                                    <small class="text-muted msg-time"><i class="uil uil-clock-nine me-1"></i>20 min ago</small>
+                                    <small class="text-muted msg-time"><i class="bi bi-clock-nine me-1"></i>20 min ago</small>
                                 </div>
                             </div>
                         </div>
@@ -395,7 +395,7 @@
                                     
                                 <div class="flex-1 chat-msg" style="max-width: 500px;">
                                     <p class="text-muted small shadow px-3 py-2 bg-light rounded mb-1">Welcome</p>
-                                    <small class="text-muted msg-time"><i class="uil uil-clock-nine me-1"></i>18 min ago</small>
+                                    <small class="text-muted msg-time"><i class="bi bi-clock-nine me-1"></i>18 min ago</small>
                                 </div>
                             </div>
                         </div>
@@ -408,9 +408,9 @@
                             <input type="text" class="form-control border" placeholder="Enter Message...">
                         </div>
                         <div class="col-auto">
-                            <a href="#" class="btn btn-icon btn-primary"><i class="uil uil-message"></i></a>
-                            <a href="#" class="btn btn-icon btn-primary"><i class="uil uil-smile"></i></a>
-                            <a href="#" class="btn btn-icon btn-primary"><i class="uil uil-paperclip"></i></a>
+                            <a href="#" class="btn btn-icon btn-primary"><i class="bi bi-message"></i></a>
+                            <a href="#" class="btn btn-icon btn-primary"><i class="bi bi-smile"></i></a>
+                            <a href="#" class="btn btn-icon btn-primary"><i class="bi bi-paperclip"></i></a>
                         </div>
                     </div>
                 </div>
@@ -421,7 +421,7 @@
             <div class="card border-0 shadow rounded">
                 <div class="p-4 border-bottom">
                     <div class="d-flex justify-content-between align-items-center">
-                        <h6 class="mb-0"><i class="uil uil-user text-primary me-1 h5"></i> Patients Reviews</h6>
+                        <h6 class="mb-0"><i class="bi bi-user text-primary me-1 h5"></i> Patients Reviews</h6>
                         
                         <div class="mb-0 position-relative">
                             <select class="form-select form-control" id="dailypatient">

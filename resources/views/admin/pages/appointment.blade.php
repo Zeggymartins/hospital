@@ -39,8 +39,8 @@
     
     <div class="row">
         <div class="col-12 mt-4">
-            <div class="table-responsive bg-white shadow rounded">
-                <table class="table mb-0 table-center">
+            <div class="table-responsive bg-white shadow rounded p-4" >
+                <table class="table mb-0 table-center" id="appointmentsTable">
                     <thead>
                         <tr>
                             <th class="border-bottom p-3">#</th>
@@ -76,7 +76,7 @@
                                        data-gender="{{ $appointment->gender }}"
                                        data-date="{{ $appointment->created_at->format('d M Y') }}"
                                        data-time="{{ $appointment->created_at->format('h:i A') }}">
-                                       <i class="uil uil-eye"></i>
+                                       <i class="bi bi-eye"></i>
                                     </a>
                                 </td>
                             </tr>
@@ -88,22 +88,19 @@
         </div>
     </div><!--end row-->
 
-    <div class="row text-center">
-        <!-- PAGINATION START -->
+    {{-- <div class="row text-center">
         <div class="col-12 mt-4">
             <div class="d-md-flex align-items-center text-center justify-content-between">
-                <span class="text-muted me-3">Showing 1 - 10 out of 50</span>
-                <ul class="pagination justify-content-center mb-0 mt-3 mt-sm-0">
-                    <li class="page-item"><a class="page-link" href="javascript:void(0)" aria-label="Previous">Prev</a></li>
-                    <li class="page-item active"><a class="page-link" href="javascript:void(0)">1</a></li>
-                    <li class="page-item"><a class="page-link" href="javascript:void(0)">2</a></li>
-                    <li class="page-item"><a class="page-link" href="javascript:void(0)">3</a></li>
-                    <li class="page-item"><a class="page-link" href="javascript:void(0)" aria-label="Next">Next</a></li>
-                </ul>
+                <span class="text-muted me-3">
+                    Showing {{ $appointments->firstItem() }} - {{ $appointments->lastItem() }} of {{ $appointments->total() }}
+                </span>
+                <div>
+                    {{ $appointments->links('pagination::bootstrap-5') }}
+                </div>
             </div>
-        </div><!--end col-->
-        <!-- PAGINATION END -->
-    </div><!--end row-->
+        </div>
+    </div> --}}
+    
 </div>
 <!-- View Appointment Modal -->
 <div class="modal fade" id="viewappointment" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
@@ -112,12 +109,13 @@
             <div class="modal-header border-bottom p-3">
                 <h5 class="modal-title" id="exampleModalLabel">Appointment Detail</h5>
                 <button type="button" class="btn btn-icon btn-close" data-bs-dismiss="modal" id="close-modal">
-                    <i class="uil uil-times fs-4 text-dark"></i>
+                    <i class="bi bi-x fs-4 text-dark"></i>
                 </button>
+                
             </div>
             <div class="modal-body p-3 pt-4">
                 <div class="d-flex align-items-center">
-                    <img id="modalImage" src="" class="avatar avatar-small rounded-pill" alt="">
+                    {{-- <img id="modalImage" src="" class="avatar avatar-small rounded-pill" alt=""> --}}
                     <h5 class="mb-0 ms-3" id="modalName">Patient Name</h5>
                 </div>
                 <ul class="list-unstyled mb-0 d-md-flex justify-content-between mt-4">
@@ -131,10 +129,10 @@
                                 <h6>Gender:</h6>
                                 <p class="text-muted ms-2" id="modalGender">...</p>
                             </li>
-                            <li class="d-flex">
+                            {{-- <li class="d-flex">
                                 <h6 class="mb-0">Department:</h6>
                                 <p class="text-muted ms-2 mb-0" id="modalDepartment">...</p>
-                            </li>
+                            </li> --}}
                         </ul>
                     </li>
                     <li>
@@ -147,10 +145,10 @@
                                 <h6>Time:</h6>
                                 <p class="text-muted ms-2" id="modalTime">...</p>
                             </li>
-                            <li class="d-flex">
+                            {{-- <li class="d-flex">
                                 <h6 class="mb-0">Doctor:</h6>
                                 <p class="text-muted ms-2 mb-0" id="modalDoctor">...</p>
-                            </li>
+                            </li> --}}
                         </ul>
                     </li>
                 </ul>
@@ -168,7 +166,7 @@
             <div class="modal-body py-5">
                 <div class="text-center">
                     <div class="icon d-flex align-items-center justify-content-center bg-soft-success rounded-circle mx-auto" style="height: 95px; width:95px;">
-                        <i class="uil uil-check-circle h1 mb-0"></i>
+                        <i class="bi bi-check-circle h1 mb-0"></i>
                     </div>
                     <div class="mt-4">
                         <h4>Accept Appointment</h4>
@@ -191,7 +189,7 @@
             <div class="modal-body py-5">
                 <div class="text-center">
                     <div class="icon d-flex align-items-center justify-content-center bg-soft-danger rounded-circle mx-auto" style="height: 95px; width:95px;">
-                        <i class="uil uil-times-circle h1 mb-0"></i>
+                        <i class="bi bi-times-circle h1 mb-0"></i>
                     </div>
                     <div class="mt-4">
                         <h4>Cancel Appointment</h4>
@@ -205,6 +203,21 @@
         </div>
     </div>
 </div>
+
+
+@endsection
+@section('body_script')
+<script>
+    $(document).ready(function() {
+        $('#appointmentsTable').DataTable({
+            "paging": true,
+            "searching": true,
+            "ordering": true,
+            "lengthChange": false,
+            "pageLength": 10
+        });
+    });
+</script>
 
 <script>
     const viewModal = document.getElementById('viewappointment');
@@ -227,5 +240,4 @@
         document.getElementById('modalImage').src = image;
     });
 </script>
-
 @endsection

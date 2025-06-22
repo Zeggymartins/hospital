@@ -64,7 +64,7 @@
                 <!-- End Logo container-->
         
                 <!-- Start Mobile Toggle -->
-                <div class="menu-extras">
+                {{-- <div class="menu-extras">
                     <div class="menu-item">
                         <!-- Mobile menu toggle-->
                         <a class="navbar-toggle" id="isToggle" onclick="toggleMenu()">
@@ -76,7 +76,7 @@
                         </a>
                         <!-- End mobile menu toggle-->
                     </div>
-                </div>
+                </div> --}}
                 <!-- End Mobile Toggle -->
 
              
@@ -84,7 +84,7 @@
         </header><!--end header-->
 
         <!-- Start Hero -->
-        <section class="bg-half-170 d-table w-100" id="home">
+        <section class="bg-half-170 d-table w-100 min-vh-40" id="home" style="background-size: cover; background-position: center;">
             <div class="bg-overlay bg-overlay-dark"></div>
             <div class="container">
                 <div class="row justify-content-center mt-5">
@@ -108,7 +108,7 @@
                 <div class="row">
                     <div class="col-md-4">
                         <div class="d-flex">
-                            <i class="uil uil-briefcase h1 mb-0 text-primary"></i>
+                            <i class="bi bi-briefcase h1 mb-0 text-primary"></i>
                             <div class="ms-3 ms-lg-4">
                                 <h5>Our Mission</h5>
                                 <p class="text-muted mb-0">The most well-known dummy text is the 'Lorem Ipsum' originated in the 16th century.</p>
@@ -118,7 +118,7 @@
 
                     <div class="col-md-4 mt-4 pt-2 mt-sm-0 pt-sm-0">
                         <div class="d-flex">
-                            <i class="uil uil-airplay h1 mb-0 text-primary"></i>
+                            <i class="bi bi-airplay h1 mb-0 text-primary"></i>
                             <div class="ms-3 ms-lg-4">
                                 <h5>Our Vision</h5>
                                 <p class="text-muted mb-0">The most well-known dummy text is the 'Lorem Ipsum' originated in the 16th century.</p>
@@ -128,7 +128,7 @@
                     
                     <div class="col-md-4 mt-4 pt-2 mt-sm-0 pt-sm-0">
                         <div class="d-flex">
-                            <i class="uil uil-flip-v h1 mb-0 text-primary"></i>
+                            <i class="bi bi-flip-v h1 mb-0 text-primary"></i>
                             <div class="ms-3 ms-lg-4">
                                 <h5>Who We Are ?</h5>
                                 <p class="text-muted mb-0">The most well-known dummy text is the 'Lorem Ipsum' originated in the 16th century.</p>
@@ -146,7 +146,7 @@
                 <div class="row align-items-center">
                     <div class="col-lg-5 col-md-6">
                         <div class="position-relative">
-                            <img src="https://shreethemes.in/doctris/layouts/assets/images/about/about-2.png" class="img-fluid" alt="">
+                            <img src="{{ asset('assets/images/doc6.jpg') }}" class="img-fluid" alt="" height="200px">
                             <div class="play-icon">
                                 <a href="#!" data-type="youtube" data-id="yba7hPeTSjk" class="play-btn lightbox video-play-icon">
                                     <i class="mdi mdi-play text-primary rounded-circle shadow"></i>
@@ -287,182 +287,65 @@
             </div><!--end container-->
             
             <!-- Cta Start -->
-            <div class="container-fluid mt-100 mt-60">
-                <div class="py-5 rounded" style="background: url('https://shreethemes.in/doctris/layouts/assets/images/bg/05.jpg') center left; height:80px;">
-                    <div class="container">
-                        <div class="row">
-                            <div class="offset-lg-8 offset-md-6 col-lg-4 col-md-6">
-                               
-                            </div><!--end col-->
-                        </div><!--end row-->
-                    </div><!--end container-->
+            <div class="position-relative py-5 mt-5" style="min-height: 450px;">
+                <div style="background: url('{{ asset('assets/images/doc5.jpg') }}') center center no-repeat; background-size: cover; position: absolute; top: 0; right: 0; bottom: 0; left: 0; border-radius: .5rem;"></div>
+                <div class="position-relative container">
+                    <div class="row">
+                        <div class="offset-lg-8 offset-md-6 col-lg-4 col-md-6">
+                            <!-- Optional content -->
+                        </div>
+                    </div>
                 </div>
-            </div><!--end container-->
+            </div>
         </section>
         <!-- End -->
 
-        <section class="pt-md-0 cta-section">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-md-6">
-                        <div class="row mt-4">
-                            <div class="col-lg-3 col-md-4 col-6 text-center py-4">
-                                <img src="https://shreethemes.in/doctris/layouts/assets/images/client/amazon.png" class="avatar avatar-client" alt="">
-                            </div><!--end col-->
-        
-                            <div class="col-lg-3 col-md-4 col-6 text-center py-4">
-                                <img src="https://shreethemes.in/doctris/layouts/assets/images/client/google.png" class="avatar avatar-client" alt="">
-                            </div><!--end col-->
-                            
-                            <div class="col-lg-3 col-md-4 col-6 text-center py-4">
-                                <img src="https://shreethemes.in/doctris/layouts/assets/images/client/lenovo.png" class="avatar avatar-client" alt="">
-                            </div><!--end col-->
-                            
-                            <div class="col-lg-3 col-md-4 col-6 text-center py-4">
-                                <img src="https://shreethemes.in/doctris/layouts/assets/images/client/paypal.png" class="avatar avatar-client" alt="">
-                            </div><!--end col-->
-                            
-                            <div class="col-lg-3 col-md-4 col-6 text-center py-4">
-                                <img src="https://shreethemes.in/doctris/layouts/assets/images/client/shopify.png" class="avatar avatar-client" alt="">
-                            </div><!--end col-->
-                            
-                            <div class="col-lg-3 col-md-4 col-6 text-center py-4">
-                                <img src="https://shreethemes.in/doctris/layouts/assets/images/client/spotify.png" class="avatar avatar-client" alt="">
-                            </div><!--end col-->
-                        </div><!--end row-->
-                    </div><!--end col-->
-                </div><!--end row-->
-            </div><!--end container-->
-        </section><!--end section-->
-        <!-- End -->
+       
             
         <!-- Start -->
         <section class="section">
-            <div class="container">
-                <div class="row justify-content-center">
-                    <div class="col-12">
-                        <div class="section-title text-center mb-4 pb-2">
-                            <h4 class="title mb-4">Doctors</h4>
-                            <p class="text-muted mx-auto para-desc mb-0">Great doctor if you need your family member to get effective immediate assistance, emergency treatment or a simple consultation.</p>
-                        </div>
-                    </div><!--end col-->
-                </div><!--end row-->
+           
 
-                <div class="row align-items-center">
-                    <div class="col-xl-3 col-lg-3 col-md-6 mt-4 pt-2">
-                        <div class="card team border-0 rounded shadow overflow-hidden">
-                            <div class="team-img position-relative">
-                                <img src="https://shreethemes.in/doctris/layouts/assets/images/doctors/01.jpg" class="img-fluid" alt="">
-                                <ul class="list-unstyled team-social mb-0">
-                                    <li><a href="javascript:void(0)" class="btn btn-icon btn-pills btn-soft-primary"><i data-feather="facebook" class="icons"></i></a></li>
-                                    <li class="mt-2"><a href="javascript:void(0)" class="btn btn-icon btn-pills btn-soft-primary"><i data-feather="linkedin" class="icons"></i></a></li>
-                                    <li class="mt-2"><a href="javascript:void(0)" class="btn btn-icon btn-pills btn-soft-primary"><i data-feather="github" class="icons"></i></a></li>
-                                    <li class="mt-2"><a href="javascript:void(0)" class="btn btn-icon btn-pills btn-soft-primary"><i data-feather="twitter" class="icons"></i></a></li>
-                                </ul>
-                            </div>
-                            <div class="card-body content text-center">
-                                <a href="doctor-team-one.html" class="title text-dark h5 d-block mb-0">Calvin Carlo</a>
-                                <small class="text-muted speciality">Eye Care</small>
-                            </div>
-                        </div>
-                    </div><!--end col-->
-                    
-                    <div class="col-xl-3 col-lg-3 col-md-6 mt-4 pt-2">
-                        <div class="card team border-0 rounded shadow overflow-hidden">
-                            <div class="team-img position-relative">
-                                <img src="https://shreethemes.in/doctris/layouts/assets/images/doctors/02.jpg" class="img-fluid" alt="">
-                                <ul class="list-unstyled team-social mb-0">
-                                    <li><a href="javascript:void(0)" class="btn btn-icon btn-pills btn-soft-primary"><i data-feather="facebook" class="icons"></i></a></li>
-                                    <li class="mt-2"><a href="javascript:void(0)" class="btn btn-icon btn-pills btn-soft-primary"><i data-feather="linkedin" class="icons"></i></a></li>
-                                    <li class="mt-2"><a href="javascript:void(0)" class="btn btn-icon btn-pills btn-soft-primary"><i data-feather="github" class="icons"></i></a></li>
-                                    <li class="mt-2"><a href="javascript:void(0)" class="btn btn-icon btn-pills btn-soft-primary"><i data-feather="twitter" class="icons"></i></a></li>
-                                </ul>
-                            </div>
-                            <div class="card-body content text-center">
-                                <a href="doctor-team-one.html" class="title text-dark h5 d-block mb-0">Cristino Murphy</a>
-                                <small class="text-muted speciality">Gynecology</small>
-                            </div>
-                        </div>
-                    </div><!--end col-->
-                    
-                    <div class="col-xl-3 col-lg-3 col-md-6 mt-4 pt-2">
-                        <div class="card team border-0 rounded shadow overflow-hidden">
-                            <div class="team-img position-relative">
-                                <img src="https://shreethemes.in/doctris/layouts/assets/images/doctors/03.jpg" class="img-fluid" alt="">
-                                <ul class="list-unstyled team-social mb-0">
-                                    <li><a href="javascript:void(0)" class="btn btn-icon btn-pills btn-soft-primary"><i data-feather="facebook" class="icons"></i></a></li>
-                                    <li class="mt-2"><a href="javascript:void(0)" class="btn btn-icon btn-pills btn-soft-primary"><i data-feather="linkedin" class="icons"></i></a></li>
-                                    <li class="mt-2"><a href="javascript:void(0)" class="btn btn-icon btn-pills btn-soft-primary"><i data-feather="github" class="icons"></i></a></li>
-                                    <li class="mt-2"><a href="javascript:void(0)" class="btn btn-icon btn-pills btn-soft-primary"><i data-feather="twitter" class="icons"></i></a></li>
-                                </ul>
-                            </div>
-                            <div class="card-body content text-center">
-                                <a href="doctor-team-one.html" class="title text-dark h5 d-block mb-0">Alia Reddy</a>
-                                <small class="text-muted speciality">Psychotherapy</small>
-                            </div>
-                        </div>
-                    </div><!--end col-->
-                    
-                    <div class="col-xl-3 col-lg-3 col-md-6 mt-4 pt-2">
-                        <div class="card team border-0 rounded shadow overflow-hidden">
-                            <div class="team-img position-relative">
-                                <img src="https://shreethemes.in/doctris/layouts/assets/images/doctors/04.jpg" class="img-fluid" alt="">
-                                <ul class="list-unstyled team-social mb-0">
-                                    <li><a href="javascript:void(0)" class="btn btn-icon btn-pills btn-soft-primary"><i data-feather="facebook" class="icons"></i></a></li>
-                                    <li class="mt-2"><a href="javascript:void(0)" class="btn btn-icon btn-pills btn-soft-primary"><i data-feather="linkedin" class="icons"></i></a></li>
-                                    <li class="mt-2"><a href="javascript:void(0)" class="btn btn-icon btn-pills btn-soft-primary"><i data-feather="github" class="icons"></i></a></li>
-                                    <li class="mt-2"><a href="javascript:void(0)" class="btn btn-icon btn-pills btn-soft-primary"><i data-feather="twitter" class="icons"></i></a></li>
-                                </ul>
-                            </div>
-                            <div class="card-body content text-center">
-                                <a href="doctor-team-one.html" class="title text-dark h5 d-block mb-0">Toni Kovar</a>
-                                <small class="text-muted speciality">Orthopedic</small>
-                            </div>
-                        </div>
-                    </div><!--end col-->
-                </div><!--end row-->
-            </div><!--end container-->
-
-            <div class="container mt-100 mt-60">
+            <div class="container mt-50 mt-60">
                 <div class="row align-items-lg-end">
                     <div class="col-md-6">
                         <div class="me-xl-3">
                             <div class="section-title mb-4 pb-2">
-                                <i class="uil uil-notes text-primary h2"></i>
+                                <i class="bi bi-notes text-primary h2"></i>
                                 <h4 class="title mb-4">Book Your Appointment</h4>
                                 <p class="text-muted para-desc mb-0">Great doctor if you need your family member to get effective immediate assistance, emergency treatment or a simple consultation.</p>
                             </div>
     
                             <div class="features feature-bg-primary d-flex card flex-row p-4 rounded-md shadow position-relative overflow-hidden">
-                                <i class="uil uil-stethoscope-alt icons h2 mb-0 text-primary"></i>
+                                <i class="bi bi-stethoscope-alt icons h2 mb-0 text-primary"></i>
                                 <div class="ms-3">
                                     <h5 class="titles">Success Of Treatment</h5>
                                     <p class="text-muted para mb-0">The most well-known dummy text is the 'Lorem Ipsum', which is said to have originated in the 16th century.</p>
                                 </div>
                                 <div class="big-icon">
-                                    <i class="uil uil-stethoscope-alt"></i>
+                                    <i class="bi bi-stethoscope-alt"></i>
                                 </div>
                             </div>
     
                             <div class="features feature-bg-primary d-flex card flex-row p-4 rounded-md shadow position-relative overflow-hidden mt-4">
-                                <i class="uil uil-microscope icons h2 mb-0 text-primary"></i>
+                                <i class="bi bi-microscope icons h2 mb-0 text-primary"></i>
                                 <div class="ms-3">
                                     <h5 class="titles">Modern Technology</h5>
                                     <p class="text-muted para mb-0">The most well-known dummy text is the 'Lorem Ipsum', which is said to have originated in the 16th century.</p>
                                 </div>
                                 <div class="big-icon">
-                                    <i class="uil uil-microscope"></i>
+                                    <i class="bi bi-microscope"></i>
                                 </div>
                             </div>
     
                             <div class="features feature-bg-primary d-flex card flex-row p-4 rounded-md shadow position-relative overflow-hidden mt-4">
-                                <i class="uil uil-user-md icons h2 mb-0 text-primary"></i>
+                                <i class="bi bi-user-md icons h2 mb-0 text-primary"></i>
                                 <div class="ms-3">
                                     <h5 class="titles">Certified Doctors</h5>
                                     <p class="text-muted para mb-0">The most well-known dummy text is the 'Lorem Ipsum', which is said to have originated in the 16th century.</p>
                                 </div>
                                 <div class="big-icon">
-                                    <i class="uil uil-user-md"></i>
+                                    <i class="bi bi-user-md"></i>
                                 </div>
                             </div>
                         </div>
@@ -677,7 +560,7 @@
                     <img src="https://shreethemes.in/doctris/layouts/assets/images/logo-dark.png" height="22" class="light-version" alt="">
                     <img src="https://shreethemes.in/doctris/layouts/assets/images/logo-light.png" height="22" class="dark-version" alt="">
                 </h5>
-                <button type="button" class="btn-close d-flex align-items-center text-dark" data-bs-dismiss="offcanvas" aria-label="Close"><i class="uil uil-times fs-4"></i></button>
+                <button type="button" class="btn-close d-flex align-items-center text-dark" data-bs-dismiss="offcanvas" aria-label="Close"><i class="bi bi-times fs-4"></i></button>
             </div>
             <div class="offcanvas-body p-4 px-md-5">
                 <div class="row">
@@ -703,14 +586,14 @@
 
             <div class="offcanvas-footer p-4 border-top text-center">
                 <ul class="list-unstyled social-icon social mb-0">
-                    <li class="list-inline-item mb-0"><a href="https://1.envato.market/doctris-template" target="_blank" class="rounded"><i class="uil uil-shopping-cart align-middle" title="Buy Now"></i></a></li>
-                    <li class="list-inline-item mb-0"><a href="https://dribbble.com/shreethemes" target="_blank" class="rounded"><i class="uil uil-dribbble align-middle" title="dribbble"></i></a></li>
-                    <li class="list-inline-item mb-0"><a href="https://www.behance.net/shreethemes" target="_blank" class="rounded"><i class="uil uil-behance align-middle" title="behance"></i></a></li>
-                    <li class="list-inline-item mb-0"><a href="https://www.facebook.com/shreethemes" target="_blank" class="rounded"><i class="uil uil-facebook-f align-middle" title="facebook"></i></a></li>
-                    <li class="list-inline-item mb-0"><a href="https://www.instagram.com/shreethemes/" target="_blank" class="rounded"><i class="uil uil-instagram align-middle" title="instagram"></i></a></li>
-                    <li class="list-inline-item mb-0"><a href="https://x.com/shreethemes" target="_blank" class="rounded"><i class="uil uil-twitter align-middle" title="twitter"></i></a></li>
-                    <li class="list-inline-item mb-0"><a href="mailto:support@shreethemes.in" class="rounded"><i class="uil uil-envelope align-middle" title="email"></i></a></li>
-                    <li class="list-inline-item mb-0"><a href="https://shreethemes.in/" target="_blank" class="rounded"><i class="uil uil-globe align-middle" title="website"></i></a></li>
+                    <li class="list-inline-item mb-0"><a href="https://1.envato.market/doctris-template" target="_blank" class="rounded"><i class="bi bi-shopping-cart align-middle" title="Buy Now"></i></a></li>
+                    <li class="list-inline-item mb-0"><a href="https://dribbble.com/shreethemes" target="_blank" class="rounded"><i class="bi bi-dribbble align-middle" title="dribbble"></i></a></li>
+                    <li class="list-inline-item mb-0"><a href="https://www.behance.net/shreethemes" target="_blank" class="rounded"><i class="bi bi-behance align-middle" title="behance"></i></a></li>
+                    <li class="list-inline-item mb-0"><a href="https://www.facebook.com/shreethemes" target="_blank" class="rounded"><i class="bi bi-facebook-f align-middle" title="facebook"></i></a></li>
+                    <li class="list-inline-item mb-0"><a href="https://www.instagram.com/shreethemes/" target="_blank" class="rounded"><i class="bi bi-instagram align-middle" title="instagram"></i></a></li>
+                    <li class="list-inline-item mb-0"><a href="https://x.com/shreethemes" target="_blank" class="rounded"><i class="bi bi-twitter align-middle" title="twitter"></i></a></li>
+                    <li class="list-inline-item mb-0"><a href="mailto:support@shreethemes.in" class="rounded"><i class="bi bi-envelope align-middle" title="email"></i></a></li>
+                    <li class="list-inline-item mb-0"><a href="https://shreethemes.in/" target="_blank" class="rounded"><i class="bi bi-globe align-middle" title="website"></i></a></li>
                 </ul><!--end icon-->
             </div>
         </div>
@@ -733,7 +616,7 @@
         <script>
             easy_background("#home",
                 {
-                    slide: ["../assets/images/bg/02.jpg", "https://shreethemes.in/doctris/layouts/assets/images/bg/03.jpg", "../assets/images/bg/04.jpg"],
+                    slide: ["{{ asset('assets/images/doc1.jpg') }}", "{{ asset('assets/images/doc2.jpg') }}", "{{ asset('assets/images/doc7.jpg') }}"],
                     delay: [3000, 3000, 3000]
                 }
             );

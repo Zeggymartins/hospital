@@ -99,13 +99,13 @@
                                         
                                         <div class="col-6 mt-3">
                                             <div class="d-grid">
-                                                <a href="#" class="btn btn-soft-primary"><i class="uil uil-facebook"></i> Facebook</a>
+                                                <a href="#" class="btn btn-soft-primary"><i class="bi bi-facebook"></i> Facebook</a>
                                             </div>
                                         </div><!--end col-->
                                         
                                         <div class="col-6 mt-3">
                                             <div class="d-grid">
-                                                <a href="#" class="btn btn-soft-primary"><i class="uil uil-google"></i> Google</a>
+                                                <a href="#" class="btn btn-soft-primary"><i class="bi bi-google"></i> Google</a>
                                             </div>
                                         </div><!--end col-->
 

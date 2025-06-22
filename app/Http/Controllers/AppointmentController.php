@@ -22,7 +22,7 @@ class AppointmentController extends Controller
     }
     public function index()
     {
-        $appointments = Appointment::latest()->get(); // You can paginate if needed
+        $appointments = Appointment::orderBy('created_at', 'desc')->get(); // You can paginate if needed
         return view('admin.pages.appointment', compact('appointments'));
     }
 }
