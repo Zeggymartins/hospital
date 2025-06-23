@@ -22,12 +22,10 @@
         <link href="https://shreethemes.in/doctris/layouts/assets/libs/tobii/css/tobii.min.css" rel="stylesheet">
         <!-- Bootstrap Css -->
         <link href="https://shreethemes.in/doctris/layouts/assets/css/bootstrap.min.css" class="theme-opt" rel="stylesheet" type="text/css" />
-        <!-- Icons Css -->
-        <link href="https://shreethemes.in/doctris/layouts/assets/css/icons.min.css" rel="stylesheet" type="text/css" />
-        <link href="https://shreethemes.in/doctris/layouts/assets/libs/remixicon/fonts/remixicon.css" rel="stylesheet" type="text/css" />
-        <link href="https://shreethemes.in/doctris/layouts/assets/libs/@iconscout/unicons/css/line.css" type="text/css" rel="stylesheet" />
         <!-- CSS (in <head>) -->
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
+
 
 
 
@@ -108,34 +106,35 @@
                 <div class="row">
                     <div class="col-md-4">
                         <div class="d-flex">
-                            <i class="bi bi-briefcase h1 mb-0 text-primary"></i>
+                            <i class="bi bi-bullseye h1 mb-0 text-primary"></i>
                             <div class="ms-3 ms-lg-4">
                                 <h5>Our Mission</h5>
                                 <p class="text-muted mb-0">The most well-known dummy text is the 'Lorem Ipsum' originated in the 16th century.</p>
                             </div>
                         </div>
                     </div><!--end col-->
-
+                
                     <div class="col-md-4 mt-4 pt-2 mt-sm-0 pt-sm-0">
                         <div class="d-flex">
-                            <i class="bi bi-airplay h1 mb-0 text-primary"></i>
+                            <i class="bi bi-eye h1 mb-0 text-primary"></i>
                             <div class="ms-3 ms-lg-4">
                                 <h5>Our Vision</h5>
                                 <p class="text-muted mb-0">The most well-known dummy text is the 'Lorem Ipsum' originated in the 16th century.</p>
                             </div>
                         </div>
                     </div><!--end col-->
-                    
+                
                     <div class="col-md-4 mt-4 pt-2 mt-sm-0 pt-sm-0">
                         <div class="d-flex">
-                            <i class="bi bi-flip-v h1 mb-0 text-primary"></i>
+                            <i class="bi bi-person-bounding-box h1 mb-0 text-primary"></i>
                             <div class="ms-3 ms-lg-4">
                                 <h5>Who We Are ?</h5>
                                 <p class="text-muted mb-0">The most well-known dummy text is the 'Lorem Ipsum' originated in the 16th century.</p>
                             </div>
                         </div>
                     </div><!--end col-->
-                </div><!--end row-->
+                </div>
+                <!--end row-->
             </div><!--end container-->
         </section><!--end section-->
         <!-- End -->
@@ -149,7 +148,7 @@
                             <img src="{{ asset('assets/images/doc6.jpg') }}" class="img-fluid" alt="" height="200px">
                             <div class="play-icon">
                                 <a href="#!" data-type="youtube" data-id="yba7hPeTSjk" class="play-btn lightbox video-play-icon">
-                                    <i class="mdi mdi-play text-primary rounded-circle shadow"></i>
+                                    <i class="bi bi-play-fill text-primary rounded-circle shadow"></i>
                                 </a>
                             </div>
                         </div>
@@ -183,107 +182,108 @@
                     <div class="col-xl-3 col-md-4 col-12 mt-5">
                         <div class="card features feature-primary bg-transparent border-0">
                             <div class="icon text-center rounded-md">
-                                <i class="ri-eye-fill h3 mb-0"></i>
+                                <i class="bi bi-eye h3 mb-0"></i>
                             </div>
                             <div class="card-body p-0 mt-3">
                                 <a href="departments.html" class="title text-dark h5">Eye Care</a>
                                 <p class="text-muted mt-3">There is now an abundance of readable dummy texts required purely to fill a space.</p>
-                                <a href="departments.html" class="link">Read More <i class="ri-arrow-right-line align-middle"></i></a>
+                                <a href="departments.html" class="link">Read More <i class="bi bi-arrow-right align-middle"></i></a>
                             </div>
                         </div>
-                    </div><!--end col-->
-
+                    </div>
+                
                     <div class="col-xl-3 col-md-4 col-12 mt-5">
                         <div class="card features feature-primary bg-transparent border-0">
                             <div class="icon text-center rounded-md">
-                                <i class="ri-psychotherapy-fill h3 mb-0"></i>
+                                <i class="bi bi-emoji-smile h3 mb-0"></i>
                             </div>
                             <div class="card-body p-0 mt-3">
                                 <a href="departments.html" class="title text-dark h5">Psychotherapy</a>
                                 <p class="text-muted mt-3">There is now an abundance of readable dummy texts required purely to fill a space.</p>
-                                <a href="departments.html" class="link">Read More <i class="ri-arrow-right-line align-middle"></i></a>
+                                <a href="departments.html" class="link">Read More <i class="bi bi-arrow-right align-middle"></i></a>
                             </div>
                         </div>
-                    </div><!--end col-->
-
+                    </div>
+                
                     <div class="col-xl-3 col-md-4 col-12 mt-5">
                         <div class="card features feature-primary bg-transparent border-0">
                             <div class="icon text-center rounded-md">
-                                <i class="ri-stethoscope-fill h3 mb-0"></i>
+                                <i class="bi bi-heart-pulse h3 mb-0"></i>
                             </div>
                             <div class="card-body p-0 mt-3">
                                 <a href="departments.html" class="title text-dark h5">Primary Care</a>
                                 <p class="text-muted mt-3">There is now an abundance of readable dummy texts required purely to fill a space.</p>
-                                <a href="departments.html" class="link">Read More <i class="ri-arrow-right-line align-middle"></i></a>
+                                <a href="departments.html" class="link">Read More <i class="bi bi-arrow-right align-middle"></i></a>
                             </div>
                         </div>
-                    </div><!--end col-->
-
+                    </div>
+                
                     <div class="col-xl-3 col-md-4 col-12 mt-5">
                         <div class="card features feature-primary bg-transparent border-0">
                             <div class="icon text-center rounded-md">
-                                <i class="ri-capsule-fill h3 mb-0"></i>
+                                <i class="bi bi-capsule-pill h3 mb-0"></i>
                             </div>
                             <div class="card-body p-0 mt-3">
                                 <a href="departments.html" class="title text-dark h5">Dental Care</a>
                                 <p class="text-muted mt-3">There is now an abundance of readable dummy texts required purely to fill a space.</p>
-                                <a href="departments.html" class="link">Read More <i class="ri-arrow-right-line align-middle"></i></a>
+                                <a href="departments.html" class="link">Read More <i class="bi bi-arrow-right align-middle"></i></a>
                             </div>
                         </div>
-                    </div><!--end col-->
-                    
+                    </div>
+                
                     <div class="col-xl-3 col-md-4 col-12 mt-5">
                         <div class="card features feature-primary bg-transparent border-0">
                             <div class="icon text-center rounded-md">
-                                <i class="ri-microscope-fill h3 mb-0"></i>
+                                <i class="bi bi-search h3 mb-0"></i>
                             </div>
                             <div class="card-body p-0 mt-3">
                                 <a href="departments.html" class="title text-dark h5">Orthopedic</a>
                                 <p class="text-muted mt-3">There is now an abundance of readable dummy texts required purely to fill a space.</p>
-                                <a href="departments.html" class="link">Read More <i class="ri-arrow-right-line align-middle"></i></a>
+                                <a href="departments.html" class="link">Read More <i class="bi bi-arrow-right align-middle"></i></a>
                             </div>
                         </div>
-                    </div><!--end col-->
-
+                    </div>
+                
                     <div class="col-xl-3 col-md-4 col-12 mt-5">
                         <div class="card features feature-primary bg-transparent border-0">
                             <div class="icon text-center rounded-md">
-                                <i class="ri-pulse-fill h3 mb-0"></i>
+                                <i class="bi bi-activity h3 mb-0"></i>
                             </div>
                             <div class="card-body p-0 mt-3">
                                 <a href="departments.html" class="title text-dark h5">Cardiology</a>
                                 <p class="text-muted mt-3">There is now an abundance of readable dummy texts required purely to fill a space.</p>
-                                <a href="departments.html" class="link">Read More <i class="ri-arrow-right-line align-middle"></i></a>
+                                <a href="departments.html" class="link">Read More <i class="bi bi-arrow-right align-middle"></i></a>
                             </div>
                         </div>
-                    </div><!--end col-->
-
+                    </div>
+                
                     <div class="col-xl-3 col-md-4 col-12 mt-5">
                         <div class="card features feature-primary bg-transparent border-0">
                             <div class="icon text-center rounded-md">
-                                <i class="ri-empathize-fill h3 mb-0"></i>
+                                <i class="bi bi-gender-female h3 mb-0"></i>
                             </div>
                             <div class="card-body p-0 mt-3">
                                 <a href="departments.html" class="title text-dark h5">Gynecology</a>
                                 <p class="text-muted mt-3">There is now an abundance of readable dummy texts required purely to fill a space.</p>
-                                <a href="departments.html" class="link">Read More <i class="ri-arrow-right-line align-middle"></i></a>
+                                <a href="departments.html" class="link">Read More <i class="bi bi-arrow-right align-middle"></i></a>
                             </div>
                         </div>
-                    </div><!--end col-->
-
+                    </div>
+                
                     <div class="col-xl-3 col-md-4 col-12 mt-5">
                         <div class="card features feature-primary bg-transparent border-0">
                             <div class="icon text-center rounded-md">
-                                <i class="ri-mind-map h3 mb-0"></i>
+                                <i class="bi bi-diagram-3 h3 mb-0"></i>
                             </div>
                             <div class="card-body p-0 mt-3">
                                 <a href="departments.html" class="title text-dark h5">Neurology</a>
                                 <p class="text-muted mt-3">There is now an abundance of readable dummy texts required purely to fill a space.</p>
-                                <a href="departments.html" class="link">Read More <i class="ri-arrow-right-line align-middle"></i></a>
+                                <a href="departments.html" class="link">Read More <i class="bi bi-arrow-right align-middle"></i></a>
                             </div>
                         </div>
-                    </div><!--end col-->
-                </div><!--end row-->
+                    </div>
+                </div>
+                ><!--end row-->
             </div><!--end container-->
             
             <!-- Cta Start -->
@@ -311,46 +311,46 @@
                     <div class="col-md-6">
                         <div class="me-xl-3">
                             <div class="section-title mb-4 pb-2">
-                                <i class="bi bi-notes text-primary h2"></i>
+                                <i class="bi bi-calendar-check text-primary h2"></i>
                                 <h4 class="title mb-4">Book Your Appointment</h4>
                                 <p class="text-muted para-desc mb-0">Great doctor if you need your family member to get effective immediate assistance, emergency treatment or a simple consultation.</p>
                             </div>
-    
+                    
                             <div class="features feature-bg-primary d-flex card flex-row p-4 rounded-md shadow position-relative overflow-hidden">
-                                <i class="bi bi-stethoscope-alt icons h2 mb-0 text-primary"></i>
+                                <i class="bi bi-bar-chart-line icons h2 mb-0 text-primary"></i>
                                 <div class="ms-3">
                                     <h5 class="titles">Success Of Treatment</h5>
                                     <p class="text-muted para mb-0">The most well-known dummy text is the 'Lorem Ipsum', which is said to have originated in the 16th century.</p>
                                 </div>
                                 <div class="big-icon">
-                                    <i class="bi bi-stethoscope-alt"></i>
+                                    <i class="bi bi-bar-chart-line"></i>
                                 </div>
                             </div>
-    
+                    
                             <div class="features feature-bg-primary d-flex card flex-row p-4 rounded-md shadow position-relative overflow-hidden mt-4">
-                                <i class="bi bi-microscope icons h2 mb-0 text-primary"></i>
+                                <i class="bi bi-cpu icons h2 mb-0 text-primary"></i>
                                 <div class="ms-3">
                                     <h5 class="titles">Modern Technology</h5>
                                     <p class="text-muted para mb-0">The most well-known dummy text is the 'Lorem Ipsum', which is said to have originated in the 16th century.</p>
                                 </div>
                                 <div class="big-icon">
-                                    <i class="bi bi-microscope"></i>
+                                    <i class="bi bi-cpu"></i>
                                 </div>
                             </div>
-    
+                    
                             <div class="features feature-bg-primary d-flex card flex-row p-4 rounded-md shadow position-relative overflow-hidden mt-4">
-                                <i class="bi bi-user-md icons h2 mb-0 text-primary"></i>
+                                <i class="bi bi-patch-check-fill icons h2 mb-0 text-primary"></i>
                                 <div class="ms-3">
                                     <h5 class="titles">Certified Doctors</h5>
                                     <p class="text-muted para mb-0">The most well-known dummy text is the 'Lorem Ipsum', which is said to have originated in the 16th century.</p>
                                 </div>
                                 <div class="big-icon">
-                                    <i class="bi bi-user-md"></i>
+                                    <i class="bi bi-patch-check-fill"></i>
                                 </div>
                             </div>
                         </div>
                     </div><!--end col-->
-
+                    
                     <div class="col-md-6 mt-4 mt-sm-0 pt-2 pt-sm-0">
                         <div class="card border-0 rounded shadow p-4 ms-xl-3">
                             <div class="custom-form">
@@ -449,25 +449,25 @@
                             <div class="col-md-4 col-12 mt-4 mt-sm-0 pt-2 pt-sm-0">
                                 <h5 class="footer-head">Company</h5>
                                 <ul class="list-unstyled footer-list mt-4">
-                                    <li><a href="aboutus.html" class="text-foot"><i class="mdi mdi-chevron-right me-1"></i> About us</a></li>
-                                    <li><a href="departments.html" class="text-foot"><i class="mdi mdi-chevron-right me-1"></i> Services</a></li>
-                                    <li><a href="doctor-team-two.html" class="text-foot"><i class="mdi mdi-chevron-right me-1"></i> Team</a></li>
-                                    <li><a href="blog-detail.html" class="text-foot"><i class="mdi mdi-chevron-right me-1"></i> Project</a></li>
-                                    <li><a href="blogs.html" class="text-foot"><i class="mdi mdi-chevron-right me-1"></i> Blog</a></li>
-                                    <li><a href="login.html" class="text-foot"><i class="mdi mdi-chevron-right me-1"></i> Login</a></li>
+                                    <li><a href="aboutus.html" class="text-foot"><i class="bi bi-chevron-right me-1"></i> About us</a></li>
+                                    <li><a href="departments.html" class="text-foot"><i class="bi bi-chevron-right me-1"></i> Services</a></li>
+                                    <li><a href="doctor-team-two.html" class="text-foot"><i class="bi bi-chevron-right me-1"></i> Team</a></li>
+                                    <li><a href="blog-detail.html" class="text-foot"><i class="bi bi-chevron-right me-1"></i> Project</a></li>
+                                    <li><a href="blogs.html" class="text-foot"><i class="bi bi-chevron-right me-1"></i> Blog</a></li>
+                                    <li><a href="login.html" class="text-foot"><i class="bi bi-chevron-right me-1"></i> Login</a></li>
                                 </ul>
                             </div><!--end col-->
                     
                             <div class="col-md-4 col-12 mt-4 mt-sm-0 pt-2 pt-sm-0">
                                 <h5 class="footer-head">Departments</h5>
                                 <ul class="list-unstyled footer-list mt-4">
-                                    <li><a href="departments.html" class="text-foot"><i class="mdi mdi-chevron-right me-1"></i> Eye Care</a></li>
-                                    <li><a href="departments.html" class="text-foot"><i class="mdi mdi-chevron-right me-1"></i> Psychotherapy</a></li>
-                                    <li><a href="departments.html" class="text-foot"><i class="mdi mdi-chevron-right me-1"></i> Dental Care</a></li>
-                                    <li><a href="departments.html" class="text-foot"><i class="mdi mdi-chevron-right me-1"></i> Orthopedic</a></li>
-                                    <li><a href="departments.html" class="text-foot"><i class="mdi mdi-chevron-right me-1"></i> Cardiology</a></li>
-                                    <li><a href="departments.html" class="text-foot"><i class="mdi mdi-chevron-right me-1"></i> Gynecology</a></li>
-                                    <li><a href="departments.html" class="text-foot"><i class="mdi mdi-chevron-right me-1"></i> Neurology</a></li>
+                                    <li><a href="departments.html" class="text-foot"><i class="bi bi-chevron-right me-1"></i> Eye Care</a></li>
+                                    <li><a href="departments.html" class="text-foot"><i class="bi bi-chevron-right me-1"></i> Psychotherapy</a></li>
+                                    <li><a href="departments.html" class="text-foot"><i class="bi bi-chevron-right me-1"></i> Dental Care</a></li>
+                                    <li><a href="departments.html" class="text-foot"><i class="bi bi-chevron-right me-1"></i> Orthopedic</a></li>
+                                    <li><a href="departments.html" class="text-foot"><i class="bi bi-chevron-right me-1"></i> Cardiology</a></li>
+                                    <li><a href="departments.html" class="text-foot"><i class="bi bi-chevron-right me-1"></i> Gynecology</a></li>
+                                    <li><a href="departments.html" class="text-foot"><i class="bi bi-chevron-right me-1"></i> Neurology</a></li>
                                 </ul>
                             </div><!--end col-->
                     
@@ -475,26 +475,26 @@
                                 <h5 class="footer-head">Contact us</h5>
                                 <ul class="list-unstyled footer-list mt-4">
                                     <li class="d-flex align-items-center">
-                                        <i data-feather="mail" class="fea icon-sm text-foot align-middle"></i>
+                                        <i class="bi bi-envelope icon-sm text-foot align-middle"></i>
                                         <a href="mailto:contact@example.com" class="text-foot ms-2">contact@example.com</a>
                                     </li>
 
                                     <li class="d-flex align-items-center">
-                                        <i data-feather="phone" class="fea icon-sm text-foot align-middle"></i>
+                                        <i class="bi bi-telephone icon-sm text-foot align-middle"></i>
                                         <a href="tel:+152534-468-854" class="text-foot ms-2">+152 534-468-854</a>
                                     </li>
 
                                     <li class="d-flex align-items-center">
-                                        <i data-feather="map-pin" class="fea icon-sm text-foot align-middle"></i>
+                                        <i class="bi bi-geo-alt icon-sm text-foot align-middle"></i>
                                         <a href="javascript:void(0)" class="video-play-icon text-foot ms-2">View on Google map</a>
                                     </li>
                                 </ul>
 
                                 <ul class="list-unstyled social-icon footer-social mb-0 mt-4">
-                                    <li class="list-inline-item"><a href="#" class="rounded-pill"><i data-feather="facebook" class="fea icon-sm fea-social"></i></a></li>
-                                    <li class="list-inline-item"><a href="#" class="rounded-pill"><i data-feather="instagram" class="fea icon-sm fea-social"></i></a></li>
-                                    <li class="list-inline-item"><a href="#" class="rounded-pill"><i data-feather="twitter" class="fea icon-sm fea-social"></i></a></li>
-                                    <li class="list-inline-item"><a href="#" class="rounded-pill"><i data-feather="linkedin" class="fea icon-sm fea-social"></i></a></li>
+                                    <li class="list-inline-item"><a href="#" class="rounded-pill"><i class="bi bi-facebook icon-sm fea-social"></i></a></li>
+                                    <li class="list-inline-item"><a href="#" class="rounded-pill"><i class="bi bi-instagram icon-sm fea-social"></i></a></li>
+                                    <li class="list-inline-item"><a href="#" class="rounded-pill"><i class="bi bi-twitter icon-sm fea-social"></i></a></li>
+                                    <li class="list-inline-item"><a href="#" class="rounded-pill"><i class="bi bi-linkedin icon-sm fea-social"></i></a></li>
                                 </ul><!--end icon-->
                             </div><!--end col-->
                         </div><!--end row-->
@@ -507,7 +507,7 @@
                     <div class="row align-items-center">
                         <div class="col-sm-6">
                             <div class="text-sm-start text-center">
-                                <p class="mb-0"><script>document.write(new Date().getFullYear())</script> © Doctris. Design with <i class="mdi mdi-heart text-danger"></i> by <a href="https://shreethemes.in/" target="_blank" class="text-reset">Shreethemes</a>.</p>
+                                <p class="mb-0"><script>document.write(new Date().getFullYear())</script> © Doctris. Design with <i class="bi bi-heart-fill text-danger"></i> by <a href="https://shreethemes.in/" target="_blank" class="text-reset">Shreethemes</a>.</p>
                             </div>
                         </div><!--end col-->
 
@@ -526,7 +526,7 @@
         <!-- End -->
 
         <!-- Back to top -->
-        <a href="#" onclick="topFunction()" id="back-to-top" class="back-to-top fs-5 rounded-pill text-center bg-primary justify-content-center align-items-center"><i data-feather="arrow-up" class="fea icon-sm"></i></a>
+        <a href="#" onclick="topFunction()" id="back-to-top" class="back-to-top fs-5 rounded-pill text-center bg-primary justify-content-center align-items-center"><i class="bi bi-arrow-up"></i></a>
         <!-- Back to top -->
 
         <!-- Offcanvas Start -->
@@ -589,7 +589,7 @@
                     <li class="list-inline-item mb-0"><a href="https://1.envato.market/doctris-template" target="_blank" class="rounded"><i class="bi bi-shopping-cart align-middle" title="Buy Now"></i></a></li>
                     <li class="list-inline-item mb-0"><a href="https://dribbble.com/shreethemes" target="_blank" class="rounded"><i class="bi bi-dribbble align-middle" title="dribbble"></i></a></li>
                     <li class="list-inline-item mb-0"><a href="https://www.behance.net/shreethemes" target="_blank" class="rounded"><i class="bi bi-behance align-middle" title="behance"></i></a></li>
-                    <li class="list-inline-item mb-0"><a href="https://www.facebook.com/shreethemes" target="_blank" class="rounded"><i class="bi bi-facebook-f align-middle" title="facebook"></i></a></li>
+                    <li class="list-inline-item mb-0"><a href="https://www.facebook.com/shreethemes" target="_blank" class="rounded"><i class="bi bi-facebook align-middle" title="facebook"></i></a></li>
                     <li class="list-inline-item mb-0"><a href="https://www.instagram.com/shreethemes/" target="_blank" class="rounded"><i class="bi bi-instagram align-middle" title="instagram"></i></a></li>
                     <li class="list-inline-item mb-0"><a href="https://x.com/shreethemes" target="_blank" class="rounded"><i class="bi bi-twitter align-middle" title="twitter"></i></a></li>
                     <li class="list-inline-item mb-0"><a href="mailto:support@shreethemes.in" class="rounded"><i class="bi bi-envelope align-middle" title="email"></i></a></li>
@@ -605,7 +605,6 @@
         <script src="https://shreethemes.in/doctris/layouts/assets/js/easy_background.js"></script>
         <script src="https://shreethemes.in/doctris/layouts/assets/libs/js-datepicker/datepicker.min.js"></script>
         <script src="https://shreethemes.in/doctris/layouts/assets/libs/tobii/js/tobii.min.js"></script>
-        <script src="https://shreethemes.in/doctris/layouts/assets/libs/feather-icons/feather.min.js"></script>
         <!-- Main Js -->
         <!-- JAVASCRIPT -->
         <script src="https://shreethemes.in/doctris/layouts/assets/libs/bootstrap/js/bootstrap.bundle.min.js"></script>
