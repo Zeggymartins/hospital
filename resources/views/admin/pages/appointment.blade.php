@@ -109,7 +109,7 @@
             <div class="modal-header border-bottom p-3">
                 <h5 class="modal-title" id="exampleModalLabel">Appointment Detail</h5>
                 <button type="button" class="btn btn-icon btn-close" data-bs-dismiss="modal" id="close-modal">
-                    <i class="bi bi-x fs-4 text-dark"></i>
+                    <i class="bi bi-x-lg fs-4 text-dark"></i>
                 </button>
                 
             </div>
@@ -237,7 +237,6 @@
         document.getElementById('modalGender').textContent = gender;
         document.getElementById('modalDate').textContent = date;
         document.getElementById('modalTime').textContent = time;
-        document.getElementById('modalImage').src = image;
     });
 </script>
 @endsection

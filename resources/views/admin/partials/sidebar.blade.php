@@ -15,7 +15,7 @@
                     <li><a href="{{ route('dashboard') }}"><i class="bi bi-speedometer2 me-2 d-inline-block"></i>Dashboard</a></li>
                 
                     <li><a href="{{ route('appointments.list') }}"><i class="bi bi-calendar-check me-2 d-inline-block"></i>Appointment</a></li>
-                
+{{--                 
                     <li class="sidebar-dropdown">
                         <a href="javascript:void(0)"><i class="bi bi-person-badge me-2 d-inline-block"></i>Doctors</a>
                         <div class="sidebar-submenu">
@@ -145,7 +145,7 @@
                         </div>
                     </li>
                 
-                    <li><a href="#" target="_blank"><i class="bi bi-globe2 me-2 d-inline-block"></i>Landing page</a></li>
+                    <li><a href="#" target="_blank"><i class="bi bi-globe2 me-2 d-inline-block"></i>Landing page</a></li> --}}
                 </ul>
                 
                 <!-- sidebar-menu  -->

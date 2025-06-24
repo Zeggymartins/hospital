@@ -109,7 +109,7 @@
                             <i class="bi bi-bullseye h1 mb-0 text-primary"></i>
                             <div class="ms-3 ms-lg-4">
                                 <h5>Our Mission</h5>
-                                <p class="text-muted mb-0">The most well-known dummy text is the 'Lorem Ipsum' originated in the 16th century.</p>
+                                <p class="text-muted mb-0">To connect patients with qualified healthcare professionals seamlessly, ensuring timely and effective medical assistance for everyone.</p>
                             </div>
                         </div>
                     </div><!--end col-->
@@ -119,7 +119,7 @@
                             <i class="bi bi-eye h1 mb-0 text-primary"></i>
                             <div class="ms-3 ms-lg-4">
                                 <h5>Our Vision</h5>
-                                <p class="text-muted mb-0">The most well-known dummy text is the 'Lorem Ipsum' originated in the 16th century.</p>
+                                <p class="text-muted mb-0">To be the most trusted platform for booking medical appointments, making quality healthcare accessible and convenient for all.</p>
                             </div>
                         </div>
                     </div><!--end col-->
@@ -129,7 +129,7 @@
                             <i class="bi bi-person-bounding-box h1 mb-0 text-primary"></i>
                             <div class="ms-3 ms-lg-4">
                                 <h5>Who We Are ?</h5>
-                                <p class="text-muted mb-0">The most well-known dummy text is the 'Lorem Ipsum' originated in the 16th century.</p>
+                                <p class="text-muted mb-0">We are a dedicated team passionate about simplifying healthcare access, bridging the gap between patients and providers.</p>
                             </div>
                         </div>
                     </div><!--end col-->
@@ -186,7 +186,7 @@
                             </div>
                             <div class="card-body p-0 mt-3">
                                 <a href="departments.html" class="title text-dark h5">Eye Care</a>
-                                <p class="text-muted mt-3">There is now an abundance of readable dummy texts required purely to fill a space.</p>
+                                <p class="text-muted mt-3">Offering specialized care for a wide range of eye conditions, from routine check-ups to advanced surgical procedures.</p>
                                 <a href="departments.html" class="link">Read More <i class="bi bi-arrow-right align-middle"></i></a>
                             </div>
                         </div>
@@ -199,7 +199,7 @@
                             </div>
                             <div class="card-body p-0 mt-3">
                                 <a href="departments.html" class="title text-dark h5">Psychotherapy</a>
-                                <p class="text-muted mt-3">There is now an abundance of readable dummy texts required purely to fill a space.</p>
+                                <p class="text-muted mt-3">Providing confidential and compassionate mental health support to help you navigate life's challenges.</p>
                                 <a href="departments.html" class="link">Read More <i class="bi bi-arrow-right align-middle"></i></a>
                             </div>
                         </div>
@@ -212,7 +212,7 @@
                             </div>
                             <div class="card-body p-0 mt-3">
                                 <a href="departments.html" class="title text-dark h5">Primary Care</a>
-                                <p class="text-muted mt-3">There is now an abundance of readable dummy texts required purely to fill a space.</p>
+                                <p class="text-muted mt-3">Your first point of contact for general health concerns, preventive care, and management of chronic conditions.</p>
                                 <a href="departments.html" class="link">Read More <i class="bi bi-arrow-right align-middle"></i></a>
                             </div>
                         </div>
@@ -225,7 +225,7 @@
                             </div>
                             <div class="card-body p-0 mt-3">
                                 <a href="departments.html" class="title text-dark h5">Dental Care</a>
-                                <p class="text-muted mt-3">There is now an abundance of readable dummy texts required purely to fill a space.</p>
+                                <p class="text-muted mt-3">Complete dental services, from routine cleanings to cosmetic and restorative procedures, for a healthy smile.</p>
                                 <a href="departments.html" class="link">Read More <i class="bi bi-arrow-right align-middle"></i></a>
                             </div>
                         </div>
@@ -238,7 +238,7 @@
                             </div>
                             <div class="card-body p-0 mt-3">
                                 <a href="departments.html" class="title text-dark h5">Orthopedic</a>
-                                <p class="text-muted mt-3">There is now an abundance of readable dummy texts required purely to fill a space.</p>
+                                <p class="text-muted mt-3">Expert diagnosis and treatment for injuries and diseases of the musculoskeletal system.</p>
                                 <a href="departments.html" class="link">Read More <i class="bi bi-arrow-right align-middle"></i></a>
                             </div>
                         </div>
@@ -251,7 +251,7 @@
                             </div>
                             <div class="card-body p-0 mt-3">
                                 <a href="departments.html" class="title text-dark h5">Cardiology</a>
-                                <p class="text-muted mt-3">There is now an abundance of readable dummy texts required purely to fill a space.</p>
+                                <p class="text-muted mt-3">Specialized heart care from leading cardiologists, focusing on prevention and treatment of cardiovascular diseases.</p>
                                 <a href="departments.html" class="link">Read More <i class="bi bi-arrow-right align-middle"></i></a>
                             </div>
                         </div>
@@ -264,7 +264,7 @@
                             </div>
                             <div class="card-body p-0 mt-3">
                                 <a href="departments.html" class="title text-dark h5">Gynecology</a>
-                                <p class="text-muted mt-3">There is now an abundance of readable dummy texts required purely to fill a space.</p>
+                                <p class="text-muted mt-3">Comprehensive women's health services, providing expert care through all stages of life.</p>
                                 <a href="departments.html" class="link">Read More <i class="bi bi-arrow-right align-middle"></i></a>
                             </div>
                         </div>
@@ -277,7 +277,7 @@
                             </div>
                             <div class="card-body p-0 mt-3">
                                 <a href="departments.html" class="title text-dark h5">Neurology</a>
-                                <p class="text-muted mt-3">There is now an abundance of readable dummy texts required purely to fill a space.</p>
+                                <p class="text-muted mt-3">Advanced care for disorders of the nervous system, including the brain, spinal cord, and nerves.</p>
                                 <a href="departments.html" class="link">Read More <i class="bi bi-arrow-right align-middle"></i></a>
                             </div>
                         </div>
@@ -320,7 +320,7 @@
                                 <i class="bi bi-bar-chart-line icons h2 mb-0 text-primary"></i>
                                 <div class="ms-3">
                                     <h5 class="titles">Success Of Treatment</h5>
-                                    <p class="text-muted para mb-0">The most well-known dummy text is the 'Lorem Ipsum', which is said to have originated in the 16th century.</p>
+                                    <p class="text-muted para mb-0">We partner with top-rated specialists to ensure you receive the highest quality care for the best possible outcomes.</p>
                                 </div>
                                 <div class="big-icon">
                                     <i class="bi bi-bar-chart-line"></i>
@@ -331,7 +331,7 @@
                                 <i class="bi bi-cpu icons h2 mb-0 text-primary"></i>
                                 <div class="ms-3">
                                     <h5 class="titles">Modern Technology</h5>
-                                    <p class="text-muted para mb-0">The most well-known dummy text is the 'Lorem Ipsum', which is said to have originated in the 16th century.</p>
+                                    <p class="text-muted para mb-0">Our platform utilizes modern technology to make booking appointments simple, secure, and efficient from anywhere.</p>
                                 </div>
                                 <div class="big-icon">
                                     <i class="bi bi-cpu"></i>
@@ -342,7 +342,7 @@
                                 <i class="bi bi-patch-check-fill icons h2 mb-0 text-primary"></i>
                                 <div class="ms-3">
                                     <h5 class="titles">Certified Doctors</h5>
-                                    <p class="text-muted para mb-0">The most well-known dummy text is the 'Lorem Ipsum', which is said to have originated in the 16th century.</p>
+                                    <p class="text-muted para mb-0">Access a network of board-certified doctors and healthcare professionals dedicated to your well-being.</p>
                                 </div>
                                 <div class="big-icon">
                                     <i class="bi bi-patch-check-fill"></i>

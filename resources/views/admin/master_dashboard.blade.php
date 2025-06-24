@@ -70,7 +70,7 @@
                     <img src="https://shreethemes.in/doctris/layouts/assets/images/logo-dark.png" height="22" class="light-version" alt="">
                     <img src="https://shreethemes.in/doctris/layouts/assets/images/logo-light.png" height="22" class="dark-version" alt="">
                 </h5>
-                <button type="button" class="btn-close d-flex align-items-center text-dark" data-bs-dismiss="offcanvas" aria-label="Close"><i class="bi bi-times fs-4"></i></button>
+                <button type="button" class="btn-close d-flex align-items-center text-dark" data-bs-dismiss="offcanvas" aria-label="Close"><i class="bi bi-x-lg fs-4"></i></button>
             </div>
             <div class="offcanvas-body p-4 px-md-5">
                 <div class="row">
@@ -99,7 +99,7 @@
                     <li class="list-inline-item mb-0"><a href="https://1.envato.market/doctris-template" target="_blank" class="rounded"><i class="bi bi-shopping-cart align-middle" title="Buy Now"></i></a></li>
                     <li class="list-inline-item mb-0"><a href="https://dribbble.com/shreethemes" target="_blank" class="rounded"><i class="bi bi-dribbble align-middle" title="dribbble"></i></a></li>
                     <li class="list-inline-item mb-0"><a href="https://www.behance.net/shreethemes" target="_blank" class="rounded"><i class="bi bi-behance align-middle" title="behance"></i></a></li>
-                    <li class="list-inline-item mb-0"><a href="https://www.facebook.com/shreethemes" target="_blank" class="rounded"><i class="bi bi-facebook-f align-middle" title="facebook"></i></a></li>
+                    <li class="list-inline-item mb-0"><a href="https://www.facebook.com/shreethemes" target="_blank" class="rounded"><i class="bi bi-facebook align-middle" title="facebook"></i></a></li>
                     <li class="list-inline-item mb-0"><a href="https://www.instagram.com/shreethemes/" target="_blank" class="rounded"><i class="bi bi-instagram align-middle" title="instagram"></i></a></li>
                     <li class="list-inline-item mb-0"><a href="https://x.com/shreethemes" target="_blank" class="rounded"><i class="bi bi-twitter align-middle" title="twitter"></i></a></li>
                     <li class="list-inline-item mb-0"><a href="mailto:support@shreethemes.in" class="rounded"><i class="bi bi-envelope align-middle" title="email"></i></a></li>
@@ -113,7 +113,6 @@
         <script src="https://shreethemes.in/doctris/layouts/assets/libs/simplebar/simplebar.min.js"></script>
         <script src="https://shreethemes.in/doctris/layouts/assets/libs/apexcharts/apexcharts.min.js"></script>
         <script src="https://shreethemes.in/doctris/layouts/assets/js/admin-apexchart.init.js"></script>
-        <script src="https://shreethemes.in/doctris/layouts/assets/libs/feather-icons/feather.min.js"></script>
         <!-- jQuery (required) -->
             <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 
