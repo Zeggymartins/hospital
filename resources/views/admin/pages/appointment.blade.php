@@ -13,27 +13,19 @@
         </div><!--end col-->
 
         <div class="col-xl-3 col-lg-6 col-md-8 mt-4 mt-md-0">
-            <div class="justify-content-md-end">
-                <form>
-                    <div class="row justify-content-between align-items-center">
-                        <div class="col-sm-12 col-md-5">
-                            <div class="mb-0 position-relative">
-                                <select class="form-select form-control">
-                                    <option value="EY">Today</option>
-                                    <option value="GY">Tomorrow</option>
-                                    <option value="PS">Yesterday</option>
-                                </select>
-                            </div>
-                        </div><!--end col-->
-                        
-                        <div class="col-sm-12 col-md-7 mt-4 mt-sm-0">
-                            <div class="d-grid">
-                                <a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#appointmentform">Appointment</a>
-                            </div>
-                        </div><!--end col-->
-                    </div><!--end row-->
-                </form><!--end form-->
+            <div class="col-sm-12 col-md-5">
+                <div class="mb-0 position-relative">
+                    <form method="GET" action="{{ route('appointments.list') }}">
+                        <select name="status" class="form-select" onchange="this.form.submit()">
+                            <option value="">All </option>
+                            <option value="pending" {{ request('status') === 'pending' ? 'selected' : '' }}>Pending</option>
+                            <option value="approved" {{ request('status') === 'approved' ? 'selected' : '' }}>Approved</option>
+                            <option value="rejected" {{ request('status') === 'rejected' ? 'selected' : '' }}>Rejected</option>
+                        </select>
+                    </form>
+                </div>
             </div>
+            
         </div><!--end col-->
     </div><!--end row-->
     
@@ -47,6 +39,7 @@
                             <th class="border-bottom p-3">Name</th>
                             <th class="border-bottom p-3">Age</th>
                             <th class="border-bottom p-3">Gender</th>
+                            <th class="border-bottom p-3">Status</th>
                             <th class="border-bottom p-3">Date</th>
                             <th class="border-bottom p-3">Time</th>
                             <th class="border-bottom p-3 text-end">Actions</th>
@@ -63,20 +56,33 @@
                                 </td>
                                 <td class="p-3">{{ $appointment->age }}</td>
                                 <td class="p-3">{{ ucfirst($appointment->gender) }}</td>
+                                <td class="p-3">
+                                    <span class="badge bg-{{ $appointment->status == 'approved' ? 'success' : ($appointment->status == 'rejected' ? 'danger' : 'warning') }}">
+                                        {{ ucfirst($appointment->status) }}
+                                    </span>
+                                </td>
                                 <td class="p-3">{{ \Carbon\Carbon::parse($appointment->created_at)->format('d M Y') }}</td>
                                 <td class="p-3">{{ \Carbon\Carbon::parse($appointment->created_at)->format('h:i A') }}</td>
                                 
                                 <td class="text-end p-3">
-                                    <a href="#" 
-                                       class="btn btn-icon btn-pills btn-soft-primary" 
-                                       data-bs-toggle="modal" 
-                                       data-bs-target="#viewappointment"
-                                       data-name="{{ $appointment->name }}"
-                                       data-age="{{ $appointment->age }}"
-                                       data-gender="{{ $appointment->gender }}"
-                                       data-date="{{ $appointment->created_at->format('d M Y') }}"
-                                       data-time="{{ $appointment->created_at->format('h:i A') }}">
-                                       <i class="bi bi-eye"></i>
+                                    <a href="#"
+                                    class="btn btn-icon btn-pills btn-soft-primary"
+                                    data-bs-toggle="modal"
+                                    data-bs-target="#viewappointment"
+                                    data-id="{{ $appointment->id }}"
+                                    data-name="{{ $appointment->name }}"
+                                    data-age="{{ $appointment->age }}"
+                                    data-gender="{{ $appointment->gender }}"
+                                    data-phone="{{ $appointment->phone }}"
+                                    data-history="{{ $appointment->health_history }}"
+                                    data-complaints="{{ $appointment->complaints }}"
+                                    data-date="{{ $appointment->created_at->format('d M Y') }}"
+                                    data-time="{{ $appointment->created_at->format('h:i A') }}"
+                                    data-status="{{ $appointment->status }}"
+                                 >
+                                    <i class="bi bi-eye"></i>
+                                 </a>
+                                 
                                     </a>
                                 </td>
                             </tr>
@@ -114,45 +120,40 @@
                 
             </div>
             <div class="modal-body p-3 pt-4">
-                <div class="d-flex align-items-center">
-                    {{-- <img id="modalImage" src="" class="avatar avatar-small rounded-pill" alt=""> --}}
+                <div class="d-flex align-items-center mb-3">
                     <h5 class="mb-0 ms-3" id="modalName">Patient Name</h5>
                 </div>
-                <ul class="list-unstyled mb-0 d-md-flex justify-content-between mt-4">
-                    <li>
-                        <ul class="list-unstyled mb-0">
-                            <li class="d-flex">
-                                <h6>Age:</h6>
-                                <p class="text-muted ms-2" id="modalAge">...</p>
-                            </li>
-                            <li class="d-flex">
-                                <h6>Gender:</h6>
-                                <p class="text-muted ms-2" id="modalGender">...</p>
-                            </li>
-                            {{-- <li class="d-flex">
-                                <h6 class="mb-0">Department:</h6>
-                                <p class="text-muted ms-2 mb-0" id="modalDepartment">...</p>
-                            </li> --}}
-                        </ul>
-                    </li>
-                    <li>
-                        <ul class="list-unstyled mb-0">
-                            <li class="d-flex">
-                                <h6>Date:</h6>
-                                <p class="text-muted ms-2" id="modalDate">...</p>
-                            </li>
-                            <li class="d-flex">
-                                <h6>Time:</h6>
-                                <p class="text-muted ms-2" id="modalTime">...</p>
-                            </li>
-                            {{-- <li class="d-flex">
-                                <h6 class="mb-0">Doctor:</h6>
-                                <p class="text-muted ms-2 mb-0" id="modalDoctor">...</p>
-                            </li> --}}
-                        </ul>
-                    </li>
-                </ul>
+                <div class="row">
+                    <div class="col-md-6">
+                        <p><strong>Age:</strong> <span id="modalAge"></span></p>
+                        <p><strong>Gender:</strong> <span id="modalGender"></span></p>
+                        <p><strong>Phone:</strong> <span id="modalPhone"></span></p>
+                    </div>
+                    <div class="col-md-6">
+                        <p><strong>Date:</strong> <span id="modalDate"></span></p>
+                        <p><strong>Time:</strong> <span id="modalTime"></span></p>
+                        <p><strong>Status:</strong> <span id="modalStatus" class="badge"></span></p>
+                    </div>
+                </div>
+                <hr>
+                <p><strong>Health History:</strong></p>
+                <p id="modalHistory" class="text-muted"></p>
+            
+                <p><strong>Complaints:</strong></p>
+                <p id="modalComplaints" class="text-muted"></p>
+            
+                <div class="mt-4 d-flex justify-content-end gap-2">
+                    <form id="approveForm" method="POST">
+                        @csrf
+                        <button class="btn btn-success">Approve</button>
+                    </form>
+                    <form id="rejectForm" method="POST">
+                        @csrf
+                        <button class="btn btn-danger">Reject</button>
+                    </form>
+                </div>
             </div>
+            
         </div>
     </div>
 </div>
@@ -224,19 +225,39 @@
     viewModal.addEventListener('show.bs.modal', function (event) {
         const button = event.relatedTarget;
 
-        // Get data attributes from the button
+        // Extract data
+        const id = button.getAttribute('data-id');
         const name = button.getAttribute('data-name');
         const age = button.getAttribute('data-age');
         const gender = button.getAttribute('data-gender');
+        const phone = button.getAttribute('data-phone');
+        const history = button.getAttribute('data-history');
+        const complaints = button.getAttribute('data-complaints');
         const date = button.getAttribute('data-date');
         const time = button.getAttribute('data-time');
+        const status = button.getAttribute('data-status');
 
-        // Populate modal content
+        // Set content
         document.getElementById('modalName').textContent = name;
-        document.getElementById('modalAge').textContent = age + ' year old';
+        document.getElementById('modalAge').textContent = age + ' years';
         document.getElementById('modalGender').textContent = gender;
+        document.getElementById('modalPhone').textContent = phone;
+        document.getElementById('modalHistory').textContent = history;
+        document.getElementById('modalComplaints').textContent = complaints;
         document.getElementById('modalDate').textContent = date;
         document.getElementById('modalTime').textContent = time;
+
+        const statusElement = document.getElementById('modalStatus');
+        statusElement.textContent = status.charAt(0).toUpperCase() + status.slice(1);
+        statusElement.className = 'badge bg-' + (status === 'approved' ? 'success' : (status === 'rejected' ? 'danger' : 'warning'));
+
+        // Build URLs using Laravel routes
+        const approveUrl = "{{ route('appointments.approve', ['id' => '__ID__']) }}".replace('__ID__', id);
+        const rejectUrl = "{{ route('appointments.reject', ['id' => '__ID__']) }}".replace('__ID__', id);
+
+        document.getElementById('approveForm').action = approveUrl;
+        document.getElementById('rejectForm').action = rejectUrl;
     });
 </script>
+
 @endsection

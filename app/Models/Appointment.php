@@ -14,6 +14,7 @@ class Appointment extends Model
         'name',
         'age',
         'health_history',
+        'status',
         'gender',
         'phone',
         'complaints',

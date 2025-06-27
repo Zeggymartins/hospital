@@ -51,12 +51,12 @@
               
                 @include('admin.partials.sidebar')
                 @include('admin.partials.header')
-                @include('admin.partials.footer')
 
                 <div class="container-fluid">
                    @yield('main')
                 </div><!--end container-->
 
+                @include('admin.partials.footer')
             
             </main>
             <!--End page-content" -->
@@ -111,8 +111,10 @@
         
         <!-- javascript -->
         <script src="https://shreethemes.in/doctris/layouts/assets/libs/simplebar/simplebar.min.js"></script>
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
         <script src="https://shreethemes.in/doctris/layouts/assets/libs/apexcharts/apexcharts.min.js"></script>
-        <script src="https://shreethemes.in/doctris/layouts/assets/js/admin-apexchart.init.js"></script>
+        <script src="{{ asset('assets/js/admin-apexchart.init.js') }}"></script>
         <!-- jQuery (required) -->
             <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 

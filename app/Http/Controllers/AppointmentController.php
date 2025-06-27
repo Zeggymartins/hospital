@@ -17,12 +17,42 @@ class AppointmentController extends Controller
             'phone' => 'required|string|min:10|max:11',
             'complaints' => 'required|string',
         ]);
+
+        $validated['status'] = 'pending'; // Set default status
+
         Appointment::create($validated);
+
         return redirect()->back()->with('success', 'Appointment booked successfully!');
     }
-    public function index()
+
+    public function index(Request $request)
     {
-        $appointments = Appointment::orderBy('created_at', 'desc')->get(); // You can paginate if needed
+        $query = Appointment::query();
+
+        if ($request->has('status') && in_array($request->status, ['pending', 'approved', 'rejected'])) {
+            $query->where('status', $request->status);
+        }
+
+        $appointments = $query->orderBy('created_at', 'desc')->get(); // or paginate()
         return view('admin.pages.appointment', compact('appointments'));
+    }
+
+
+    public function approve($id)
+    {
+        $appointment = Appointment::findOrFail($id);
+        $appointment->status = 'approved';
+        $appointment->save();
+
+        return redirect()->back()->with('success', 'Appointment approved successfully!');
+    }
+
+    public function reject($id)
+    {
+        $appointment = Appointment::findOrFail($id);
+        $appointment->status = 'rejected';
+        $appointment->save();
+
+        return redirect()->back()->with('error', 'Appointment rejected.');
     }
 }
