@@ -25,6 +25,7 @@
         <link href="https://shreethemes.in/doctris/layouts/assets/libs/remixicon/fonts/remixicon.css" rel="stylesheet" type="text/css" />
         {{-- <link href="https://shreethemes.in/doctris/layouts/assets/libs/@iconscout/unicons/css/line.css" type="text/css" rel="stylesheet" /> --}}
         <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
+        
 
         <!-- Style Css-->
         <link href="https://shreethemes.in/doctris/layouts/assets/css/style.min.css" class="theme-opt" rel="stylesheet" type="text/css" />
@@ -62,6 +63,30 @@
             <!--End page-content" -->
         </div>
         <!-- page-wrapper -->
+<!-- Toast Container -->
+<div aria-live="polite" aria-atomic="true" class="position-fixed bottom-0 end-0 p-3" style="z-index: 9999">
+    @if (session('success'))
+        <div class="toast align-items-center text-bg-success border-0 show" role="alert">
+            <div class="d-flex">
+                <div class="toast-body">
+                    {{ session('success') }}
+                </div>
+                <button type="button" class="btn-close btn-close-white me-2 m-auto" data-bs-dismiss="toast"></button>
+            </div>
+        </div>
+    @endif
+
+    @if (session('error'))
+        <div class="toast align-items-center text-bg-danger border-0 show" role="alert">
+            <div class="d-flex">
+                <div class="toast-body">
+                    {{ session('error') }}
+                </div>
+                <button type="button" class="btn-close btn-close-white me-2 m-auto" data-bs-dismiss="toast"></button>
+            </div>
+        </div>
+    @endif
+</div>
 
         <!-- Offcanvas Start -->
         <div class="offcanvas offcanvas-end shadow border-0" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
@@ -117,6 +142,8 @@
         <script src="{{ asset('assets/js/admin-apexchart.init.js') }}"></script>
         <!-- jQuery (required) -->
             <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
 
             <!-- DataTables JS -->
             <script src="https://cdn.datatables.net/1.11.5/js/jquery.dataTables.min.js"></script>

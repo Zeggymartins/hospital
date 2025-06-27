@@ -83,7 +83,22 @@
                                     <i class="bi bi-eye"></i>
                                  </a>
                                  
-                                    </a>
+                                <form action="{{ route('appointments.approve', $appointment->id) }}" method="POST" style="display:inline;">
+                                    @csrf
+                                    <button type="submit" class="btn btn-icon btn-pills btn-soft-success" title="Approve">
+                                        <i class="bi bi-check-circle"></i>
+                                    </button>
+                                </form>
+
+                                <!-- Reject Button -->
+                                <form action="{{ route('appointments.reject', $appointment->id) }}" method="POST" style="display:inline;">
+                                    @csrf
+                                    <button type="submit" class="btn btn-icon btn-pills btn-soft-danger" title="Reject">
+                                        <i class="bi bi-x-circle"></i>
+                                    </button>
+                                </form>
+
+
                                 </td>
                             </tr>
                         @endforeach
